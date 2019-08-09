@@ -4,12 +4,15 @@ const http = require('http');
 const lodash = require('lodash');
 const page = require('./page.js');
 const fs = require('fs');
-require('console-group').install();
+//require('console-group').install();
+const zintGen = require('./zint_gen');
+const ptdo = require('./ptdo');
+const config = require('./config');
 
 //--- константы
 const hostname = '127.0.0.1';
 const port = 3001;
-const pathPrefix = '../m80m_Trooget/_wiki';
+const pathPrefix = config.troogetPathRelative; //'../m80m_Trooget/_wiki';
 
 
 //---
@@ -20,12 +23,25 @@ const pathPrefix = '../m80m_Trooget/_wiki';
  @param resBack (2) -- сформированный нами ответ на запрос
  */
 const requestHandler = (req, resBack) => {
-    console.group('XGR: createServer');
+    console.log('XGR: createServer');
     console.log('XGR: req.url [' + req.url + ']');
 
     if (req.url === '/favicon.ico') {
         console.log('XGR: -- /favicon.ico');
-    } else {
+    }
+    else if (req.url === '/aifm_signal') {
+        console.log('aifm_signal');
+
+        ptdo.exists('111');
+
+        //--- генерируем четырех-буквенный термин
+        let stGenEng = zintGen.fnGenerateEng();
+        //---
+        resBack.statusCode = 200;
+        resBack.setHeader('Content-Type', 'text/plain');
+        resBack.end(stGenEng);
+    }
+    else {
         let path = pathPrefix + req.url;
         path = fnPathCorrection(path);
         console.log('path [' + path + ']');
@@ -36,11 +52,10 @@ const requestHandler = (req, resBack) => {
                 resBack.setHeader('Content-Type', 'text/html');
                 resBack.end(data);
             } else {
-                console.log('VRR: ' + err);
+                console.log('VRR: ' + err + ' //190809-084001');
             }
         });
     }
-    console.groupEnd();
 };
 
 //---
