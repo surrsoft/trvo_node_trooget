@@ -32,5 +32,5 @@ function randomInt(min, max) {
 }
 
 //---
-exports.fnGenerateEng = generateEng;
-exports.fnGenerateRu = generateRu;
+exports.generateEng = generateEng;
+exports.generateRu = generateRu;
