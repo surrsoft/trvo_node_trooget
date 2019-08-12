@@ -36,6 +36,7 @@ const requestHandler = (req, resBack) => {
         if (req.url === '/favicon.ico') {
             console.log('XGR: -- /favicon.ico');
         }
+        //возвращаем путь к wiki
         else if (req.url === '/pathWiki') {
             console.log('signal /pathWiki //190811-100000');
             const stRet = tpuf.pathAbsByRelative(config.troogetPathRelative);
@@ -44,30 +45,28 @@ const requestHandler = (req, resBack) => {
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(stRet);
         }
+        //генерируем термин
         else if (req.url === '/aifm_signal') {
             console.log('aifm_signal');
-
             //--- генерируем четырех-буквенный термин ([zint]-термин)
             let stGenEng = zintGen.generateEng();
-
             //--- проверяем существование сгенерированного термина в [ptdo]
             const isExist = ptdo.isZintExist(stGenEng);
             console.log('bExist [' + isExist + ']');
-
             //--- данные в браузер
             const ret = {
                 stGenEng,
                 isExist
             };
-
             //---
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(JSON.stringify(ret));
-        } else if (req.url.indexOf(stUmok) !== -1) {
+        }
+        //сохраняем термин в файл-терминов ([ptdo])
+        else if (req.url.indexOf(stUmok) !== -1) {
             //--- выделяем [zint]
             const stZint = req.url.replace(stUmok, '');
-
             //---
             const stResSave = ptdo.zintAdd(stZint);
             if (stResSave.length > 0) {
@@ -80,7 +79,8 @@ const requestHandler = (req, resBack) => {
                 resBack.setHeader('Content-Type', 'text/plain');
                 resBack.end('OK');
             }
-        } else if (req.url === '/asrz') {
+        }
+        else if (req.url === '/asrz') {
             const stAsrzPathAbs = tpuf.pathAbsByRelative(config.troogetPathRelative + '/' + '_js/x46z_config_fi.txt');
             const stAsrzText = fs.readFileSync(stAsrzPathAbs) + '';
             //---
@@ -91,8 +91,6 @@ const requestHandler = (req, resBack) => {
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(ret);
-        } else if (req.url === '/xbrz') {
-
         }
         else if (req.url === '/epgn') {
             console.log('/epgn //190810-154700');
@@ -103,10 +101,6 @@ const requestHandler = (req, resBack) => {
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(stUxfyText);
-        }
-        else if (req.url === '/xbrz') {
-            console.log('/epgn //190810-154701');
-            //TODO -real
         }
         else {
             //---

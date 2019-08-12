@@ -29,7 +29,7 @@ function zintAdd(stZint) {
         return 'длина [zint] должна быть =4; [' + stZint.length + ']';
     }
     //---
-    fs.appendFileSync(stPtdoPathAbs, '\n'+stZint, 'ucs2');
+    fs.appendFileSync(stPtdoPathAbs, stZint+'\n', 'ucs2');
     return '';
 }
 
