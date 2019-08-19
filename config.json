@@ -1,3 +1,4 @@
 {
-    "troogetPathRelative": "../m80m_Trooget/_wiki"
+    "troogetPathRelative": "../m80m_Trooget/_wiki",
+    "diapasons": ["t", "p", "q"]
 }

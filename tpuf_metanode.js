@@ -2,6 +2,9 @@
 Функции связанные в целом с Node JS
  */
 
+"use strict";
+/* jshint esversion: 6 */
+
 //---
 const path = require('path');
 
@@ -22,7 +25,7 @@ function pathRootGet() {
  @return например "D:\x\f\b"
  */
 function pathAbsByRelative(stPathRelative) {
-    var stPathRoot = pathRootGet();
+    const stPathRoot = pathRootGet();
     return path.resolve(stPathRoot, stPathRelative);
 }
 
