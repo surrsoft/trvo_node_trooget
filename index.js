@@ -160,22 +160,26 @@ const requestHandler = (req, resBack) => {
             // НА ВХОДЕ: абсолютный путьфайл файла содержимое которого мы хотим получить, например 'D:/f/file.txt'.
             // RETURN: пустая строка если файл не существует
             req.on('data', function (stPostData) {
-                console.log('stPostData [' + stPostData + '] //190811-083300 /cmdFileGet');
+                adpm.log('--> /cmdFileGet; stPostData ['+stPostData+']', adpm.ADPM_OPEN);
                 const stFilePathAbs = mdPath.normalize(stPostData + '');
-                console.log('stFilePathAbs [' + stFilePathAbs + '] //190811-101800');
+                adpm.log('stFilePathAbs ['+stFilePathAbs+']', adpm.ADPM_IN);
                 let stRet = '';
                 if (fs.existsSync(stFilePathAbs)) {
+                    adpm.log('(файл наден/не найден): найден', adpm.ADPM_IN);
                     stRet = fs.readFileSync(stFilePathAbs, TFile.UBTM_UCS2);
-                }
-                if (stRet.indexOf('txTitle') === -1) {
-                    stRet = fs.readFileSync(stFilePathAbs, TFile.UBTM_UTF8);
-                }
-                if (stRet.indexOf('txTitle') === -1) {
-                    stRet = fs.readFileSync(stFilePathAbs, TFile.UBTM_UTF16LE);
+                    if (stRet.indexOf('txTitle') === -1) {
+                        stRet = fs.readFileSync(stFilePathAbs, TFile.UBTM_UTF8);
+                    }
+                    if (stRet.indexOf('txTitle') === -1) {
+                        stRet = fs.readFileSync(stFilePathAbs, TFile.UBTM_UTF16LE);
+                    }
+                }else {
+                    adpm.log('(файл наден/не найден): не найден', adpm.ADPM_IN);
                 }
                 //---
                 resBack.statusCode = 200;
                 resBack.setHeader('Content-Type', 'text/plain');
+                adpm.log('', adpm.ADPM_CLOSE);
                 resBack.end(stRet + '');
             });
         } else if (req.url === '/cmdFileGet_B') {
@@ -428,7 +432,7 @@ function indexCreate() {
 
     //--- запись в файл
     const stPker = JSON.stringify(arrPker);
-    fs.writeFileSync(stWikiRootPath + '\\' + 'j_x50f.txt', stPker);
+    fs.writeFileSync(fnPathJoin(stWikiRootPath, 'j_x50f.txt'), stPker);
 
     //---
     adpm.log('ИНДЕКС СФОРМИРОВАН', adpm.ADPM_IN, adpm.HNUO_ALWAYS);
@@ -447,6 +451,26 @@ function fnIsEncodeOk(stFileBody) {
 }
 
 /**
+ * Конкатенирует пути (1) (2) через разделитель. Разделителем будет '/' если (1) не содежрит обратного слэша, иначе
+ * разделителем будет обратный слэш
+ * @param _stPath1 (1) --
+ * @param _stPath2 (2) --
+ * @returns {string|*}
+ */
+function fnPathJoin(_stPath1, _stPath2){
+    if(_stPath1 && _stPath2){
+        let stDiv = '/';
+        if(_stPath1.indexOf('\\') !== -1){
+            stDiv = '\\';
+        }
+        //---
+        return _stPath1+stDiv+_stPath2;
+    }else{
+        return _stPath1+_stPath2;
+    }
+}
+
+/**
  * Формирует [cxkk] - отдельный элемент [pker]
  *
  * @param _stFileName {String}
@@ -456,7 +480,7 @@ function fnIsEncodeOk(stFileBody) {
  */
 function fnCxkkGet(_stFileName, _stWikiRootPath, _arrZcmuBack) {
     adpm.log('--> fnCxkkGet(..); _stFileName [' + _stFileName + ']; _stWikiRootPath [' + _stWikiRootPath + ']', adpm.ADPM_OPEN);
-    const stFileNameAbs = _stWikiRootPath + '\\' + _stFileName;
+    const stFileNameAbs = fnPathJoin(_stWikiRootPath, _stFileName);
 
     //--- читаем файл (сначала используем одну кодировку, в случае неудачи - вторую)
     let stFileBody = fs.readFileSync(stFileNameAbs, TFile.UBTM_UTF16LE);
