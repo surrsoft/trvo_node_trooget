@@ -36,9 +36,23 @@ const requestHandler = (req, resBack) => {
     console.log('XGR: req.method [' + req.method + '] //190810-185901');
 
     if (req.method === 'GET') {
+        if(req.url === '/'){
+            req.url = '/p_0_p.html';
+        }
         //---
         if (req.url === '/favicon.ico') {
             console.log('XGR: -- /favicon.ico');
+            let path = pathPrefix + req.url;
+            path = fnPathCorrection(path);
+            fs.readFile(path, function (err, data) {
+                if (!err) {
+                    resBack.statusCode = 200;
+                    resBack.setHeader('Content-Type', 'image/jpg');
+                    resBack.end(data);
+                } else {
+                    console.log('VRR: ' + err + ' //190809-084001');
+                }
+            });
         }
         //возвращаем путь к wiki
         else if (req.url === '/pathWiki') {
@@ -83,7 +97,8 @@ const requestHandler = (req, resBack) => {
                 resBack.setHeader('Content-Type', 'text/plain');
                 resBack.end('OK');
             }
-        } else if (req.url === '/asrz') {
+        }
+        else if (req.url === '/asrz') {
             const stAsrzPathAbs = tpuf.pathAbsByRelative(config.troogetPathRelative + '/' + '_js/x46z_config_fi.txt');
             const stAsrzText = fs.readFileSync(stAsrzPathAbs) + '';
             //---
@@ -94,7 +109,8 @@ const requestHandler = (req, resBack) => {
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(ret);
-        } else if (req.url === '/epgn') {
+        }
+        else if (req.url === '/epgn') {
             console.log('/epgn //190810-154700');
             //--- абсолютный путь к [uxfy]-файлу
             const stUxfyPathAbs = tpuf.pathAbsByRelative(config.troogetPathRelative + '/' + 'j_x52f.txt');
@@ -103,13 +119,15 @@ const requestHandler = (req, resBack) => {
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(stUxfyText);
-        } else if (req.url === '/indexCreate') {
+        }
+        else if (req.url === '/indexCreate') {
             indexCreate();
             //---
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end('ok');
-        } else {
+        }
+        else {
             //---
             let path = pathPrefix + req.url;
             path = fnPathCorrection(path);
@@ -518,41 +536,6 @@ function fnCxkkGet(_stFileName, _stWikiRootPath, _arrZcmuBack) {
     return ojCxkk;
 }
 
-
-//
-// /**
-//  * Получение "Карточки" страницы (1) представленной объектом [cxkk]
-//  *
-//  * @param _stFileNameAbs (1) -- абсолютное имя страницы, формат [crip], например "F:\\Folder\\index.html"
-//  * @param _stFileName (2) -- {optional} имя файла страницы, формат [dtof], например "index.html"
-//  * @retruns {object} объект
-//  */
-// function fnCxkkGet(m105m, _stFileNameAbs, _stFileName) {
-//     var m1 = '';
-//     _stFileName = _stFileName || null;
-//     //--- файл в виде строки
-//     var stFileBody = fs.read
-//     if (!stFileBody) {
-//         return;
-//     }
-//     //---
-//     var title = yg54g_Strings_html_getTg_C(m1, stFileBody, "title", "p_innerHTML").blockInner;
-//     var comm = yg54g_Strings_html_getTg_C(m1, stFileBody, "#x44z_comm", "p_innerHTML").blockInner;
-//     var thxx = yg54g_Strings_html_getTg_C(m1, stFileBody, "div#x41z_blocks", "p_innerHTML").blockInner;
-//     //--- объект [[cxkk]]
-//     var cxkk = {
-//         isTitle: false,
-//         txTitle: title,
-//         isComm: false,
-//         txComm: comm,
-//         txThxx: thxx,
-//         //[[zxuw]] - тут находится либо полный путь к странице ([crip]) либо только имя страницы ([stDtof])
-//         stZxuw: _stFileName === null ? _stFileNameAbs : _stFileName,
-//         arSts: []
-//     };
-//     //---
-//     return cxkk;
-// }
 
 
 
