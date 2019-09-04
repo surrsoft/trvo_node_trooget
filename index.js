@@ -36,7 +36,7 @@ const requestHandler = (req, resBack) => {
     console.log('XGR: req.method [' + req.method + '] //190810-185901');
 
     if (req.method === 'GET') {
-        if(req.url === '/'){
+        if (req.url === '/') {
             req.url = '/p_0_p.html';
         }
         //---
@@ -97,8 +97,7 @@ const requestHandler = (req, resBack) => {
                 resBack.setHeader('Content-Type', 'text/plain');
                 resBack.end('OK');
             }
-        }
-        else if (req.url === '/asrz') {
+        } else if (req.url === '/asrz') {
             const stAsrzPathAbs = tpuf.pathAbsByRelative(config.troogetPathRelative + '/' + '_js/x46z_config_fi.txt');
             const stAsrzText = fs.readFileSync(stAsrzPathAbs) + '';
             //---
@@ -109,8 +108,7 @@ const requestHandler = (req, resBack) => {
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(ret);
-        }
-        else if (req.url === '/epgn') {
+        } else if (req.url === '/epgn') {
             console.log('/epgn //190810-154700');
             //--- абсолютный путь к [uxfy]-файлу
             const stUxfyPathAbs = tpuf.pathAbsByRelative(config.troogetPathRelative + '/' + 'j_x52f.txt');
@@ -119,15 +117,13 @@ const requestHandler = (req, resBack) => {
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end(stUxfyText);
-        }
-        else if (req.url === '/indexCreate') {
+        } else if (req.url === '/indexCreate') {
             indexCreate();
             //---
             resBack.statusCode = 200;
             resBack.setHeader('Content-Type', 'text/plain');
             resBack.end('ok');
-        }
-        else {
+        } else {
             //---
             let path = pathPrefix + req.url;
             path = fnPathCorrection(path);
@@ -178,9 +174,9 @@ const requestHandler = (req, resBack) => {
             // НА ВХОДЕ: абсолютный путьфайл файла содержимое которого мы хотим получить, например 'D:/f/file.txt'.
             // RETURN: пустая строка если файл не существует
             req.on('data', function (stPostData) {
-                adpm.log('--> /cmdFileGet; stPostData ['+stPostData+']', adpm.ADPM_OPEN);
+                adpm.log('--> /cmdFileGet; stPostData [' + stPostData + ']', adpm.ADPM_OPEN);
                 const stFilePathAbs = mdPath.normalize(stPostData + '');
-                adpm.log('stFilePathAbs ['+stFilePathAbs+']', adpm.ADPM_IN);
+                adpm.log('stFilePathAbs [' + stFilePathAbs + ']', adpm.ADPM_IN);
                 let stRet = '';
                 if (fs.existsSync(stFilePathAbs)) {
                     adpm.log('(файл наден/не найден): найден', adpm.ADPM_IN);
@@ -191,7 +187,7 @@ const requestHandler = (req, resBack) => {
                     if (stRet.indexOf('txTitle') === -1) {
                         stRet = fs.readFileSync(stFilePathAbs, TFile.UBTM_UTF16LE);
                     }
-                }else {
+                } else {
                     adpm.log('(файл наден/не найден): не найден', adpm.ADPM_IN);
                 }
                 //---
@@ -331,8 +327,16 @@ const requestHandler = (req, resBack) => {
                 resBack.setHeader('Content-Type', 'text/plain');
                 resBack.end(stJsonFiles);
             });
+        } else if (req.url === '/signal_vamu') {
+            req.on('data', function (stBody) {
+                console.log('stBody [' + stBody + ']');
+                //---
+                resBack.statusCode = 200;
+                resBack.setHeader('Content-Type', 'text/plain');
+                resBack.end('test_ok');
+            });
         } else {
-            var stMessage = 'undefinded cmd [' + req.url + ']';
+            const stMessage = 'undefinded cmd [' + req.url + ']';
             throw Error(stMessage);
         }
     }
@@ -475,16 +479,16 @@ function fnIsEncodeOk(stFileBody) {
  * @param _stPath2 (2) --
  * @returns {string|*}
  */
-function fnPathJoin(_stPath1, _stPath2){
-    if(_stPath1 && _stPath2){
+function fnPathJoin(_stPath1, _stPath2) {
+    if (_stPath1 && _stPath2) {
         let stDiv = '/';
-        if(_stPath1.indexOf('\\') !== -1){
+        if (_stPath1.indexOf('\\') !== -1) {
             stDiv = '\\';
         }
         //---
-        return _stPath1+stDiv+_stPath2;
-    }else{
-        return _stPath1+_stPath2;
+        return _stPath1 + stDiv + _stPath2;
+    } else {
+        return _stPath1 + _stPath2;
     }
 }
 
