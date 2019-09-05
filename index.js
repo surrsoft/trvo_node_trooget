@@ -16,6 +16,7 @@ const mdFromTrooget = require('./fromTrooget');
 const adpm = require('./adpmLog');
 const TArray = require('./xrsu/TArray');
 const TFile = require('./xrsu/TFile');
+const Vamu = require('./vamu/vamu_core');
 
 //--- константы
 const hostname = '127.0.0.1';
@@ -330,6 +331,9 @@ const requestHandler = (req, resBack) => {
         } else if (req.url === '/signal_vamu') {
             req.on('data', function (stBody) {
                 console.log('stBody [' + stBody + ']');
+                //---
+                const ojNmec = JSON.parse(stBody);
+                Vamu.go(ojNmec);
                 //---
                 resBack.statusCode = 200;
                 resBack.setHeader('Content-Type', 'text/plain');

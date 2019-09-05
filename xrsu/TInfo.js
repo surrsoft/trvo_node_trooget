@@ -23,7 +23,7 @@ let mOptTypeof = false;
  * @param _oj (1) --
  */
 function info(_oj) {
-    TUtil.argsVerifEx(arguments, 1);
+    TUtil.argsCountVerifEx(arguments, 1);
     return fnInspect(_oj);
 }
 
@@ -34,7 +34,7 @@ function info(_oj) {
  * @returns {string} например { c: 4 } --> { a: 2 } --> {}
  */
 function info_B(_oj) {
-    TUtil.argsVerifEx(arguments, 1);
+    TUtil.argsCountVerifEx(arguments, 1);
     //---
     if (!_oj) {
         return fnInspect(_oj);
@@ -57,7 +57,7 @@ function info_B(_oj) {
  * @param _stSuffix (3) --
  */
 function infoConsole(_stPrefix, _oj, _stSuffix) {
-    TUtil.argsVerifEx(arguments, 3);
+    TUtil.argsCountVerifEx(arguments, 3);
     console.log(_stPrefix + info(_oj) + _stSuffix);
 }
 
@@ -69,7 +69,7 @@ function infoConsole(_stPrefix, _oj, _stSuffix) {
  * @param _stSuffix (3) --
  */
 function infoConsole_B(_stPrefix, _oj, _stSuffix) {
-    TUtil.argsVerifEx(arguments, 3);
+    TUtil.argsCountVerifEx(arguments, 3);
     console.log(_stPrefix + info_B(_oj) + _stSuffix);
 }
 
@@ -79,7 +79,7 @@ function infoConsole_B(_stPrefix, _oj, _stSuffix) {
  * @returns {string}
  */
 function infoConstructor(_oj) {
-    TUtil.argsVerifEx(arguments, 1);
+    TUtil.argsCountVerifEx(arguments, 1);
     return '' + _oj.constructor;
 }
 

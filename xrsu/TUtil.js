@@ -20,6 +20,11 @@ function argsVerifEx(_arguments, _iCount) {
     }
 }
 
+function exceptIf(_b, _stText) {
+    if (!_b) {
+        throw Error(_stText);
+    }
+}
 
-
-exports.argsVerifEx = argsVerifEx;
+exports.argsCountVerifEx = argsVerifEx;
+exports.exceptIf = exceptIf;

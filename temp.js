@@ -6,14 +6,20 @@ const util = require('util');
 const TObject = require('./xrsu/TObject');
 const {User} = require('./temp1');
 const TInfo = require('./xrsu/TInfo');
+const lodash = require('lodash');
 
 //-------------------------------------------------------------------------------------------------
 
-let a1 = 'b';
-let a2 = a1;
+let ojs = [
+    {s: 1, w: {a: 3}},
+    {s: 1, w: {a: null}},
+    {s: 1, w: {}},
+    {s: 1, w: {a: undefined}},
+    {s: 1, w: {a: function () {}}},
+    {s: 1, w: {a: 3}},
+    {s: 1, w: {a: 'r'}},
+    {s: 1, w: {a: 'r'}},
+];
 
-a1 = 'c';
-
-console.log('a1 ['+a1+']');
-console.log('a2 ['+a2+']');
-
+let valuesMap = TObject.valuesGet(ojs, 'w.a', true);
+console.log(valuesMap);
