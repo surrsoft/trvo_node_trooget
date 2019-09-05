@@ -150,6 +150,28 @@ async function cardDelete(ojNmec){
     });
 }
 
+/**
+ * Возвращает TRUE если карточка с таким tag как в (1) и таким front уже есть в БД
+ *
+ * @param _cardOj {Object}
+ * @return {Promise<*|Promise<unknown>|Promise|Promise>}
+ */
+async function cardExist(_cardOj){
+    return new Promise((resolve, reject) => {
+        let ojFind = {
+            tag: _cardOj.tag,
+            front: _cardOj.front,
+        };
+        //---
+        dbFlashcards.find(ojFind, function (err, docs) {
+            if(err){
+                reject(err);
+            }
+            resolve(docs.length > 0);
+        });
+    });
+}
+
 
 //``````
 exports.tagsGet = tagsGet;
@@ -159,3 +181,4 @@ exports.cardCreateOrUpdate = cardCreateOrUpdate;
 exports.cardCount = cardCount;
 exports.cardCountBySelect = cardCountBySelect;
 exports.cardDelete = cardDelete;
+exports.cardExist = cardExist;

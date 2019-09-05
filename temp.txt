@@ -1,4 +1,148 @@
-tst1
-tst2
-tst3
-tst4
+
+{"tag":"English","front":"kindly","back":"приятный, милый, дружелюбный; хороший (о климате); сердечно, вежливо, любезно; легко, без напряжения; естественным образом","bal":"0",_id":"JGmZe8mgf7YNa920"}
+{"tag":"English","front":""{tried}"","back":"{пытался}; надежный, проверенный, испытанный","bal":"0",_id":"JGmZe8mgf7YNa930"}
+{"tag":"English","front":"truncate","back":"усечённый; усекать; укорачивать; сокращать; калечить; округлять; отбрасывать (числа)"","bal":"0",_id":"JGmZe8mgf7YNa940"}
+{"tag":"English","front":"restrict","back":"ограничивать","bal":"0",_id":"JGmZe8mgf7YNa950"}
+{"tag":"English","front":"propagation","back":"воспроизведение, размножение; распространение (идей)"","bal":"0",_id":"JGmZe8mgf7YNa960"}
+{"tag":"English","front":"consistency","back":"логичность, связность; стойкость, устойчивость; прочность, постоянство; слаженность, взаимодействие; соответствие","bal":"0",_id":"JGmZe8mgf7YNa970"}
+{"tag":"English","front":"properly","back":"должным образом; как следует; правильно; пристойно; собственно, строго говоря; по сути; существенным образом; прекрасно (разг.); вполне","bal":"0",_id":"JGmZe8mgf7YNa980"}
+{"tag":"English","front":"durability","back":"продолжительность, длительность; долговечность; срок службы; прочность; износостойкость (техн.)"","bal":"0",_id":"JGmZe8mgf7YNa990"}
+{"tag":"English","front":"issue","back":"выпуск (продукции); издание (журналов); выходной канал; потомство; исход, результат, плод; спорный вопрос; проблема; дело; тема; пункт; вытекать, выходить; появляться; кончаться (чем-либо)"","bal":"0",_id":"JGmZe8mgf7YNa100"}
+{"tag":"English","front":"embed","back":"вставлять, врезать; внедрять","bal":"0",_id":"JGmZe8mgf7YNa101"}
+{"tag":"English","front":"although","back":"хотя, если бы даже; несмотря на то, что","bal":"0",_id":"JGmZe8mgf7YNa102"}
+{"tag":"English","front":"through","back":"через, сквозь; в течение, в продолжение; посредством; совершенно (промокший); безпрепятственный, свободный","bal":"0",_id":"JGmZe8mgf7YNa103"}
+{"tag":"English","front":"entirely","back":"вполне, всецело, полностью, совершенно, совсем","bal":"0",_id":"JGmZe8mgf7YNa104"}
+{"tag":"English","front":"turn","back":"поворачивать; вращать; переворачивать; загибать; обходить; отправлять; точить; направлять (на что-л.); turn+прилаг. - делаться, становиться","bal":"0",_id":"JGmZe8mgf7YNa105"}
+{"tag":"English","front":"either","back":"любой; оба; каждый; также, тоже (в отриц. предложениях); или (или ... или ...)"","bal":"0",_id":"JGmZe8mgf7YNa106"}
+{"tag":"English","front":"ourselves","back":"себя, себе, собой; сами","bal":"0",_id":"JGmZe8mgf7YNa107"}
+{"tag":"English","front":""(...) ...that it does not have to do anything.","back":""...что не нужно ничего делать.","bal":"0",_id":"JGmZe8mgf7YNa108"}
+{"tag":"English","front":""(...) This is so the code...","back":"Это такой код...","bal":"0",_id":"JGmZe8mgf7YNa109"}
+{"tag":"English","front":""(...) ...that watches for focus changes...","back":""...который отслеживает изменение фокуса...","bal":"0",_id":"JGmZe8mgf7YNa110"}
+{"tag":"English","front":"traversal","back":"просмотр-обход; обход; прослеживание, прохождение","bal":"0",_id":"JGmZe8mgf7YNa111"}
+{"tag":"English","front":"yet","back":"ещё, всё ещё, пока что; когда-либо, когда-нибудь; уже (в вопросительных предложениях), пора; ещё, вдобавок; СОЮЗ однако, тем не менее;","bal":"0",_id":"JGmZe8mgf7YNa112"}
+{"tag":"English","front":"dirty","back":"ПРИЛ. грязный, запачканый; непристойный; злостный; тусклый (о цвете); ненастный (о погоде); ГЛ. загрязнять, пачкать","bal":"0",_id":"JGmZe8mgf7YNa113"}
+{"tag":"English","front":"fling","back":"ГЛ. бросаться, кидаться; бросать, метать; СУЩ. бросок","bal":"0",_id":"JGmZe8mgf7YNa114"}
+{"tag":"English","front":"sentinel","back":"СУЩ. часовой, страж; ГЛ. охранять, стоять на страже","bal":"0",_id":"JGmZe8mgf7YNa115"}
+{"tag":"English","front":"duration","back":"длина, длительность, продолжительность","bal":"0",_id":"JGmZe8mgf7YNa116"}
+{"tag":"English","front":"contrary","back":"СУЩ. противоположность; ПРИЛ. обратный, противоположный; неблагоприятный; упрямый; ДОП. вопреки","bal":"0",_id":"JGmZe8mgf7YNa117"}
+{"tag":"English","front":"revert","back":"ГЛ. возвращаться (к чему-л.); (устн.) обращать назад (взгляд)"","bal":"0",_id":"JGmZe8mgf7YNa118"}
+{"tag":"English","front":"gutter","back":"СУЩ. канавка, бороздка; сточная канава; дно (общества); ГЛ. вымывать канавки; стекать; угасать (о пламени)"","bal":"0",_id":"JGmZe8mgf7YNa119"}
+{"tag":"English","front":"layout","back":"СУЩ. планировка; разметка; макет; (америк. разг.) группа (людей)"","bal":"0",_id":"JGmZe8mgf7YNa120"}
+{"tag":"English","front":"rest","back":"ГЛ. отдыхать; давать покой; покоиться; оставаться неподвижным; оставаться спокойным; класть, прислонять; (юр.) отзывать иск; СУЩ. покой, отдых, сон; смерть; перерыв; остаток, остальное","bal":"0",_id":"JGmZe8mgf7YNa121"}
+{"tag":"English","front":"rest in","back":"возлагать на (кого-л. ответственность и т.п.)"","bal":"0",_id":"JGmZe8mgf7YNa122"}
+{"tag":"English","front":"rest on/with","back":"быть возложенным, лежать на (ком-либо; об ответственности, вине и т.п.)"","bal":"0",_id":"JGmZe8mgf7YNa123"}
+{"tag":"English","front":"rest (up)on/in","back":"держаться, основываться, опираться","bal":"0",_id":"JGmZe8mgf7YNa124"}
+{"tag":"English","front":"pull","back":"ГЛ. тянуть, тащить; натягивать, растягивать; дергать; СУЩ. тяга, рывок","bal":"0",_id":"JGmZe8mgf7YNa125"}
+{"tag":"English","front":"dispatch","back":"СУЩ. отправка, отсылка; казнь; быстрота, скорость; выполнение (какой-л. работы); донесение; депеша; ГЛ. увольнять","bal":"0",_id":"JGmZe8mgf7YNa126"}
+{"tag":"English","front":"emit","back":"ГЛ. испускать, выделять (свет и т.д.); выбрасывать (пепел напр.); издавать (звук напр.)"","bal":"0",_id":"JGmZe8mgf7YNa127"}
+{"tag":"English","front":"consume","back":"ГЛ. тратить; расходовать; уничтожать (обычно об огне); съедать; изнашивать","bal":"0",_id":"JGmZe8mgf7YNa128"}
+{"tag":"English","front":"remember","back":"ГЛ. помнить; вспоминать; вознаграждать; завещать","bal":"0",_id":"JGmZe8mgf7YNa129"}
+{"tag":"English","front":"means to do so","back":"средства (необходимые средства)"","bal":"0",_id":"JGmZe8mgf7YNa130"}
+{"tag":"English","front":"sustained","back":"ПРИЛ. устойчивый, продолжительный; непрерывный; (физ.) незатухающий","bal":"0",_id":"JGmZe8mgf7YNa131"}
+{"tag":"English","front":""[eg] или e.g.","back":"например","bal":"0",_id":"JGmZe8mgf7YNa132"}
+{"tag":"English","front":"carry","back":"ГЛ. нести, носить; вести (силой); содержать, нести в себе; иметь (какие-л. свойства); сообщать, распространять; СУЩ. транспортное средство","bal":"0",_id":"JGmZe8mgf7YNa133"}
+{"tag":"English","front":"carry over","back":"везти, возить, перевозить","bal":"0",_id":"JGmZe8mgf7YNa134"}
+{"tag":"English","front":"carry about","back":"иметь при себе, носить с собой","bal":"0",_id":"JGmZe8mgf7YNa135"}
+{"tag":"English","front":"carry weight","back":"иметь вес, влияние","bal":"0",_id":"JGmZe8mgf7YNa136"}
+{"tag":"English","front":"carry a price","back":"иметь цену; стоить денег","bal":"0",_id":"JGmZe8mgf7YNa137"}
+{"tag":"English","front":"carry away/off","back":"выиграть, одержать победу","bal":"0",_id":"JGmZe8mgf7YNa138"}
+{"tag":"English","front":"carry along","back":"увлекать за собой, вести","bal":"0",_id":"JGmZe8mgf7YNa139"}
+{"tag":"English","front":"carry down","back":"передавать, оставлять потомкам","bal":"0",_id":"JGmZe8mgf7YNa140"}
+{"tag":"English","front":"carry forward","back":"продвигать; приносить успех","bal":"0",_id":"JGmZe8mgf7YNa141"}
+{"tag":"English","front":"carry off","back":"похищать; захватывать; свести в могилу; (разг.) выдержать, вынести; (разг.) успешно закончить, выполнить; извинять","bal":"0",_id":"JGmZe8mgf7YNa142"}
+{"tag":"English","front":"carry on","back":"продолжать; вести (дело)"","bal":"0",_id":"JGmZe8mgf7YNa143"}
+{"tag":"English","front":"carry out","back":"выполнять, осуществлять; приводить в исполнение","bal":"0",_id":"JGmZe8mgf7YNa144"}
+{"tag":"English","front":"carry through","back":"осуществлять, доводить до конца; помогать, поддерживать (в трудную минуту)"","bal":"0",_id":"JGmZe8mgf7YNa145"}
+{"tag":"English","front":"carry up","back":"строить, сооружать","bal":"0",_id":"JGmZe8mgf7YNa146"}
+{"tag":"English","front":"carry to extremes","back":"доводить до крайности","bal":"0",_id":"JGmZe8mgf7YNa147"}
+{"tag":"English","front":"carry all before one","back":"преодолевать все препятствия; выйти победителем","bal":"0",_id":"JGmZe8mgf7YNa148"}
+{"tag":"English","front":"eventual","back":"возможный, могущий случиться; конечный, окончательный","bal":"0",_id":"JGmZe8mgf7YNa149"}
+{"tag":"English","front":"willingness","back":"доступность","bal":"0",_id":"JGmZe8mgf7YNa150"}
+{"tag":"English","front":"nor","back":"также не, тоже не; ни ..., ни ...; не ..., не ...","bal":"0",_id":"JGmZe8mgf7YNa151"}
+{"tag":"English","front":"vice versa","back":"наоборот","bal":"0",_id":"JGmZe8mgf7YNa152"}
+{"tag":"English","front":"therefore","back":"по этой причине; вследствие этого; поэтому, следовательно","bal":"0",_id":"JGmZe8mgf7YNa153"}
+{"tag":"English","front":"so far","back":"до сих пор; пока; до настоящего времени","bal":"0",_id":"JGmZe8mgf7YNa154"}
+{"tag":"English","front":"give up","back":"оставить, отказаться; бросить (что-л.)"","bal":"0",_id":"JGmZe8mgf7YNa155"}
+{"tag":"English","front":"insight","back":"СУЩ. проницательность","bal":"0",_id":"JGmZe8mgf7YNa156"}
+{"tag":"English","front":"insight into","back":"понимание, догадка, (внезапное) озарение, проникновение в суть","bal":"0",_id":"JGmZe8mgf7YNa157"}
+{"tag":"English","front":"on behalf of","back":"от лица, от имени (кого-л.)"","bal":"0",_id":"JGmZe8mgf7YNa158"}
+{"tag":"English","front":"in behalf of","back":"для, ради; в интересах, в пользу, в защиту (кого-л.)"","bal":"0",_id":"JGmZe8mgf7YNa159"}
+{"tag":"English","front":"reachable","back":"досягаемый, достижимый; доступный","bal":"0",_id":"JGmZe8mgf7YNa160"}
+{"tag":"English","front":"threshold","back":"порог, пороговая величина; предверие, отправной пункт, канун, начало;","bal":"0",_id":"JGmZe8mgf7YNa161"}
+{"tag":"English","front":"immediately","back":"прямо, непосредственно; немедленно; как только","bal":"0",_id":"JGmZe8mgf7YNa162"}
+{"tag":"English","front":"disambiguation","back":"устранение противоречий; устранение неоднозначности; разрешение конфликтов","bal":"0",_id":"JGmZe8mgf7YNa163"}
+{"tag":"English","front":"inclusion","back":"включение (в состав)"","bal":"0",_id":"JGmZe8mgf7YNa164"}
+{"tag":"English","front":"glance","back":"бросить взгляд; взглянуть мельком, одним глазом; едва заметить; блескнуть, сверкнуть; скользнуть, отскочить","bal":"0",_id":"JGmZe8mgf7YNa165"}
+{"tag":"English","front":"unlike","back":"разный, отличный; неравный, неравноценный; нехарактерный, нетипичный; в отличие от","bal":"0",_id":"JGmZe8mgf7YNa166"}
+{"tag":"English","front":"generally","back":"обычно, как правило; в целом; в общем смысле, вообще; в большинстве случаев, большей частью","bal":"0",_id":"JGmZe8mgf7YNa167"}
+{"tag":"English","front":"still","back":"ПРИЛ. бесшумный, тихий; неподвижный; СУЩ. тишина;  ГЛ. успокаиваться; успокаивать; НАРЕЧ. до сих пор, (всё) ещё, однако; ещё (ближе напр.); кроме того","bal":"0",_id":"JGmZe8mgf7YNa168"}
+{"tag":"English","front":"Pros:...","back":"Преимущество:..., За:...","bal":"0",_id":"JGmZe8mgf7YNa169"}
+{"tag":"English","front":"Cons:...","back":"Против:...","bal":"0",_id":"JGmZe8mgf7YNa170"}
+{"tag":"English","front":"expose","back":"делать видимым, обнажать; знакомить (с музыкой напр.)"","bal":"0",_id":"JGmZe8mgf7YNa171"}
+{"tag":"English","front":"wish","back":"ГЛ. желать, хотеть; СУЩ. желание; просьба;","bal":"0",_id":"JGmZe8mgf7YNa172"}
+{"tag":"English","front":"wish on","back":"навязывать (кому-л.)"","bal":"0",_id":"JGmZe8mgf7YNa173"}
+{"tag":"English","front":"hint","back":"СУЩ. намёк; совет; шанс (устн.); ГЛ. намекать","bal":"0",_id":"JGmZe8mgf7YNa174"}
+{"tag":"English","front":"leave","back":"СУЩ. позволение, разрешение; объезд, уход; отправление, отход; расставание, прощание; ГЛ. покидать; уезжать, переезжать; оставлять (след напр.); забывать; оставить (после себя напр.); разрешать, позволять","bal":"0",_id":"JGmZe8mgf7YNa175"}
+{"tag":"English","front":"cite","back":"ГЛ. ссылаться (на что-л.); цитировать; вызывать в суд (юр.); созывать, призывать","bal":"0",_id":"JGmZe8mgf7YNa176"}
+{"tag":"English","front":"route","back":"СУЩ. дорога, путь; шоссе; курс, направление; маршрут, путь следования ГЛ. прокладывать маршрут; направлять (по маршруту); намечать, распределять","bal":"0",_id":"JGmZe8mgf7YNa177"}
+{"tag":"English","front":"their","back":"их; свой;","bal":"0",_id":"JGmZe8mgf7YNa178"}
+{"tag":"English","front":"ancestor","back":"прародитель, предок; (юр.) предшествовавший владелец; прототип, прообраз","bal":"0",_id":"JGmZe8mgf7YNa179"}
+{"tag":"English","front":"once more","back":"ещё раз","bal":"0",_id":"JGmZe8mgf7YNa180"}
+{"tag":"English","front":"opaque","back":""/непрозрачный/ ПРИЛ. непрозрачный; непроницаемый, темный; тусклый, без блеска; глупый; СУЩ. темнота, мрак","bal":"0",_id":"JGmZe8mgf7YNa181"}
+{"tag":"English","front":"ajust","back":""/подгонять/ ГЛ. приводить в порядок; подгонять, пригонять; приспосабливаться, привыкать; регулировать; настривать","bal":"0",_id":"JGmZe8mgf7YNa182"}
+{"tag":"English","front":"worth","back":"СУЩ. ценность, значение; достоинство; цена, стоимость; состояние, доход; запас (чего-л.); ГЛ. УСТ. случаться, происходить; становиться; следовать, надлежать","bal":"0",_id":"JGmZe8mgf7YNa183"}
+{"tag":"English","front":"enough","back":"ПРИЛ. достаточный; СУЩ. достаточное количество; НАРЕЧ. довольно, достаточно","bal":"0",_id":"JGmZe8mgf7YNa184"}
+{"tag":"English","front":"notion","back":"СУЩ. идея, представление, понятие, знание; взгляд, мнение; упоминание; намерение; (устн.) изобретение","bal":"0",_id":"JGmZe8mgf7YNa185"}
+{"tag":"English","front":"forbid","back":"запрещать; не позволять; препятствовать","bal":"0",_id":"JGmZe8mgf7YNa186"}
+{"tag":"English","front":"pending","back":"ПРИЛ. незаконченный, ожидающий решения; надвигающийся, близкий; ПРЕДЛ. в продолжение; в течение; (вплоть) до; в ожидании, ожидая","bal":"0",_id":"JGmZe8mgf7YNa187"}
+{"tag":"English","front":"i.e.","back":"то есть","bal":"0",_id":"JGmZe8mgf7YNa188"}
+{"tag":"English","front":"farther","back":"ПРИЛ. отдаленный, удаленный; дальнейший; дополнительный; НАРЕЧ. сверх того, кроме того, помимо","bal":"0",_id":"JGmZe8mgf7YNa189"}
+{"tag":"English","front":"extent","back":"СУЩ. пространство, протяжение, расстояние; объем; мера, степень, рамки, пределы; размер, величина","bal":"0",_id":"JGmZe8mgf7YNa190"}
+{"tag":"English","front":"deal","back":"СУЩ. некоторое количество; сделка, соглашение, договор; обращение, обхождение; ГЛ. распределять; раздавать, выдавать; наносить (удар); СУЩ. доска; древесина","bal":"0",_id":"JGmZe8mgf7YNa191"}
+{"tag":"English","front":"deal in","back":"покупать и продавать, торговать","bal":"0",_id":"JGmZe8mgf7YNa192"}
+{"tag":"English","front":"deal with","back":"рассматривать (жалобу, проблему); заниматься (решением проблемы);","bal":"0",_id":"JGmZe8mgf7YNa193"}
+{"tag":"English","front":"deal with / by","back":"иметь дело (с кем-л.); обходиться с (кем-л.)"","bal":"0",_id":"JGmZe8mgf7YNa194"}
+{"tag":"English","front":"deal with (разг.)"","back":"справляться с (ситуацией); наказывать (кого-л.)"","bal":"0",_id":"JGmZe8mgf7YNa195"}
+{"tag":"English","front":"render","back":"ГЛ. отдавать, платить; оказывать услугу, помощь; приводить в какое-л. состояние; исполнять (произведение); представлять, изображать, выводить; СУЩ. плата, оплата; оказание услуги; нижний слой штукатурки","bal":"0",_id":"JGmZe8mgf7YNa196"}
+{"tag":"English","front":"render into","back":"переводить (на другой язык)"","bal":"0",_id":"JGmZe8mgf7YNa197"}
+{"tag":"English","front":"render up","back":"сдаваться, выбрасывать белый флаг","bal":"0",_id":"JGmZe8mgf7YNa198"}
+{"tag":"English","front":"as well","back":"также, тоже; с таким же успехом","bal":"0",_id":"JGmZe8mgf7YNa199"}
+{"tag":"English","front":"allocate","back":"ГЛ. назначать; распределять; размещать; располагать в определенном месте","bal":"0",_id":"JGmZe8mgf7YNa200"}
+{"tag":"English","front":"spatial","back":"ПРИЛ. пространственный; занимающий какое-л. пространство; ощущающий, воспринимающий пространство","bal":"0",_id":"JGmZe8mgf7YNa201"}
+{"tag":"English","front":"intercept","back":"ГЛ. служить помехой, препятствием; перехватить (сигнал); прерывать, выключать; (мат.) пересечение","bal":"0",_id":"JGmZe8mgf7YNa202"}
+{"tag":"English","front":"anyway","back":"НАРЕЧ. как бы то ни было, во всяком случае; в любом случае; как попало, кое-как","bal":"0",_id":"JGmZe8mgf7YNa203"}
+{"tag":"English","front":"treat","back":"ГЛ. обращаться, обходиться, вести себя (по отношению к кому-л.); относиться (к кому-л. каким-л. образом); обрабатывать, подвергать действию; иметь дело (с кем-л.), договариваться, вести переговоры; обсуждать, рассматривать (проблему напр.); угощать; развлекать; удостаивать (взгляда, улыбки); лечить  СУЩ. удовольствие; наслаждение; угощение","bal":"0",_id":"JGmZe8mgf7YNa204"}
+{"tag":"English","front":"they","back":"они (о людях, животных, предметах); люди (вообще), кто-то; (устн.) те (кто)"","bal":"0",_id":"JGmZe8mgf7YNa205"}
+{"tag":"English","front":"facilitate","back":"ГЛ. облегчать; содействовать; способствовать; помогать, продвигать","bal":"0",_id":"JGmZe8mgf7YNa206"}
+{"tag":"English","front":"decay","back":"ГЛ. гнить, разлагаться; разрушаться; угасать, расстраиваться;","bal":"0",_id":"JGmZe8mgf7YNa207"}
+{"tag":"English","front":"in turn","back":"по очереди","bal":"0",_id":"JGmZe8mgf7YNa208"}
+{"tag":"English","front":"circumstance","back":"обстоятельство; случай; условие; материальное положение; деталь, подробность, частность; ритуал, церемония","bal":"0",_id":"JGmZe8mgf7YNa209"}
+{"tag":"English","front":"facilities","back":"средства обслуживания; оборудование; сооружения; устройства; условия (для работы напр.)"","bal":"0",_id":"JGmZe8mgf7YNa210"}
+{"tag":"English","front":"acquire","back":"обзаводиться, приобретать; получать; овладевать","bal":"0",_id":"JGmZe8mgf7YNa211"}
+{"tag":"English","front":"fetch","back":"ГЛ. принести, достать; сходить (за кем-л.), позвать; приглашать; достигать, добиваться; приносить доход, зарабатывать; (мор.) достигать берега; (разг.) нравиться, приносить удовольствие; (разг.) ударить, бить СУЩ. принесение (чего-л.); усилия, тяжкие труды, напряжение; уловка, хитрость; вздох, вдох; удушье; (тех.) выборка, вызов","bal":"0",_id":"JGmZe8mgf7YNa212"}
+{"tag":"English","front":"indeed","back":"1. в самом деле, действительно; конечно, несомненно; фактически; 2. даже, более того 3. безусловно","bal":"0",_id":"JGmZe8mgf7YNa213"}
+{"tag":"English","front":"other things being equal","back":"при прочих равных услових","bal":"0",_id":"JGmZe8mgf7YNa214"}
+{"tag":"English","front":"dispose","back":"располагать, размещать, расставлять, определять, предопределять, склонять","bal":"0",_id":"JGmZe8mgf7YNa215"}
+{"tag":"English","front":"essentially","back":"по существу, существенным образом, чрезвычайно","bal":"0",_id":"JGmZe8mgf7YNa216"}
+{"tag":"English","front":"assets","back":"активы, имущество, средства, ресурсы","bal":"0",_id":"JGmZe8mgf7YNa217"}
+{"tag":"English","front":"conversation","back":"разговор, беседа","bal":"0",_id":"JGmZe8mgf7YNa218"}
+{"tag":"English","front":"scared","back":"испуганный","bal":"0",_id":"JGmZe8mgf7YNa219"}
+{"tag":"English","front":"politely","back":"вежливо, любезно","bal":"0",_id":"JGmZe8mgf7YNa220"}
+{"tag":"English","front":"dangling","back":"висящий, свисающий, обособленный","bal":"0",_id":"JGmZe8mgf7YNa221"}
+{"tag":"English","front":"obsolete","back":"устаревший","bal":"0",_id":"JGmZe8mgf7YNa222"}
+{"tag":"English","front":"evolve","back":"развиваться, эволюционировать, меняться","bal":"0",_id":"JGmZe8mgf7YNa223"}
+{"tag":"English","front":"over time","back":"со временем","bal":"0",_id":"JGmZe8mgf7YNa224"}
+{"tag":"English","front":"consumption","back":"потребление, использование","bal":"0",_id":"JGmZe8mgf7YNa225"}
+{"tag":"English","front":"convenient","back":"удобство","bal":"0",_id":"JGmZe8mgf7YNa226"}
+{"tag":"English","front":"meaningful","back":"значимый; выразительный","bal":"0",_id":"JGmZe8mgf7YNa227"}
+{"tag":"English","front":"best-effort basis","back":"с учётом имеющихся возможностей","bal":"0",_id":"JGmZe8mgf7YNa228"}
+{"tag":"English","front":"effort","back":"усилие, попытка, напряжение","bal":"0",_id":"JGmZe8mgf7YNa229"}
+{"tag":"English","front":"tradeoff","back":"компромисс","bal":"0",_id":"JGmZe8mgf7YNa230"}
+{"tag":"English","front":"threshold","back":"порог","bal":"0",_id":"JGmZe8mgf7YNa231"}
+{"tag":"English","front":"amid","back":"среди, между","bal":"0",_id":"JGmZe8mgf7YNa232"}
+{"tag":"English","front":"utterance","back":"высказывание","bal":"0",_id":"JGmZe8mgf7YNa233"}
+{"tag":"English","front":"fraud","back":"мошеничество, подделка, обман, обманщик","bal":"0",_id":"JGmZe8mgf7YNa234"}
+{"tag":"English","front":"investigate","back":"исследование, расследование","bal":"0",_id":"JGmZe8mgf7YNa235"}
+{"tag":"English","front":"recognizer","back":"распознаватель","bal":"0",_id":"JGmZe8mgf7YNa236"}
+
+

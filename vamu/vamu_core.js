@@ -23,6 +23,9 @@ async function go(_ojNmec) {
     else if(_ojNmec.action === 'cardDelete'){
         return await Flashcards.cardDelete(_ojNmec);
     }
+    else if(_ojNmec.action === 'esistsFront'){
+        return await Flashcards.cardExist(_ojNmec.cardOj);
+    }
     return new Promise();
 }
 
