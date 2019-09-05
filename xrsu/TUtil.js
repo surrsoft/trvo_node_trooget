@@ -2,29 +2,36 @@
 
 /* jshint esversion: 6 */
 
-/**
- * Выбрасывает ошибку если количество аргументов в (1) не равно (2)
- * @param _arguments (1) --
- * @param _iCount (2) --
- */
-function argsVerifEx(_arguments, _iCount) {
-    if (arguments.length !== 2) {
-        throw new Error('_args.length [' + _arguments.length + ']');
-    }
-    if (_iCount < 0) {
-        throw new Error('_iCount [' + _iCount + ']');
-    }
-    //---
-    if (_arguments.length !== _iCount) {
-        throw new Error('incorrect number of arguments; [' + _arguments.length + '] instead [' + _iCount + ']');
-    }
-}
+module.exports = {
 
-function exceptIf(_b, _stText) {
-    if (!_b) {
-        throw Error(_stText);
-    }
-}
+    /**
+     * Выбрасывает ошибку если количество аргументов в (1) не равно (2)
+     * @param _arguments (1) --
+     * @param _iCount (2) --
+     */
+    argsCountVerifEx: function (_arguments, _iCount) {
+        if (arguments.length !== 2) {
+            throw new Error('_args.length [' + _arguments.length + ']');
+        }
+        if (_iCount < 0) {
+            throw new Error('_iCount [' + _iCount + ']');
+        }
+        //---
+        if (_arguments.length !== _iCount) {
+            throw new Error('incorrect number of arguments; [' + _arguments.length + '] instead [' + _iCount + ']');
+        }
+    },
 
-exports.argsCountVerifEx = argsVerifEx;
-exports.exceptIf = exceptIf;
+    /**
+     *
+     * @param _b
+     * @param _stText
+     */
+    exceptIf: function (_b, _stText) {
+        if (!_b) {
+            console.warn('ERROR', _stText);
+            throw Error(_stText);
+        }
+    }
+
+};

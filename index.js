@@ -160,11 +160,9 @@ const requestHandler = (req, resBack) => {
                 console.log('stPostData [' + (stPostData + '') + '] //190810-191900');
                 //---
                 const stFilePathAbs = mdPath.normalize(stPostData + '') + '';
-                console.log('!!!!!!!!! stFilePathAbs [' + stFilePathAbs + '] //190811-102800');
                 //---
                 const bRet = fs.existsSync(stFilePathAbs);
                 const stRet = bRet + '';
-                console.log('!!!!!!!!! stRet [' + stRet + '] //190811-103500');
                 //---
                 resBack.statusCode = 200;
                 resBack.setHeader('Content-Type', 'text/plain');
@@ -201,10 +199,8 @@ const requestHandler = (req, resBack) => {
             //От А отличается только тем что считает что файл в кодировке UTF-8
             req.on('data', function (stPostData) {
                 console.log('stPostData [' + stPostData + '] //190811-083300 /cmdFileGet');
-                console.log('!!!!!!!!! 1');
                 const stFilePathAbs = mdPath.normalize(stPostData + '');
                 console.log('stFilePathAbs [' + stFilePathAbs + '] //190811-101800');
-                console.log('!!!!!!!!! 2');
                 let stRet = '';
                 if (fs.existsSync(stFilePathAbs)) {
                     stRet = fs.readFileSync(stFilePathAbs);
@@ -220,13 +216,8 @@ const requestHandler = (req, resBack) => {
                 //--- получаем путьфайл создаваемого файла (stFileNameAbs)
                 const ix = stMcny.indexOf('^') - 0;
                 const stFileNameAbs = stMcny.substring(0, ix);
-                console.log('!!!!!!!!! stFileNameAbs [' + stFileNameAbs + ']');
                 //--- получаем тело создаваемого файла (stBody)
                 let stBody = stMcny.substring(ix + 1);
-                console.log('!!!!!!!!! 1 stBody [' + stBody + ']');
-                //--- перекодируем из UTF8 в UCS2
-                // stBody = mdEncoding.convert(stBody, 'UCS-2', 'UTF-8');
-                // console.log('!!!!!!!!! 2 stBody [' + stBody + ']');
                 //---
                 if (fs.existsSync(stFileNameAbs)) {
                     //^ проверяем нет ли уже такого файла
@@ -286,7 +277,6 @@ const requestHandler = (req, resBack) => {
                 //--- получаем путьфайл создаваемого файла (stFileNameAbs)
                 const ix = stMcny.indexOf('^') - 0;
                 const stFileNameAbs = stMcny.substring(0, ix);
-                console.log('!!!!!!!!! stFileNameAbs [' + stFileNameAbs + ']');
                 //--- получаем тело создаваемого файла (stBody)
                 let stBody = stMcny.substring(ix + 1);
                 console.log('-//190811-194805 1 stBody [' + stBody + '] //190811-192500');
@@ -320,7 +310,6 @@ const requestHandler = (req, resBack) => {
                 console.log('stFolderPathAbs [' + stFolderPathAbs + ']');
                 //---
                 const files = fs.readdirSync(stFolderPathAbs);
-                console.log('!!!!!!!!! //190812-130100 files=');
                 console.log(files);
                 const stJsonFiles = JSON.stringify(files);
                 //---
@@ -333,11 +322,17 @@ const requestHandler = (req, resBack) => {
                 console.log('stBody [' + stBody + ']');
                 //---
                 const ojNmec = JSON.parse(stBody);
-                Vamu.go(ojNmec);
+                Vamu.go(ojNmec)
+                    .then((resp) => {
+                        resBack.statusCode = 200;
+                        resBack.setHeader('Content-Type', 'text/plain');
+                        resBack.end(JSON.stringify(resp));
+                    }, (err) => {
+                        resBack.statusCode = 200;
+                        resBack.setHeader('Content-Type', 'text/plain');
+                        resBack.end('');
+                    });
                 //---
-                resBack.statusCode = 200;
-                resBack.setHeader('Content-Type', 'text/plain');
-                resBack.end('test_ok');
             });
         } else {
             const stMessage = 'undefinded cmd [' + req.url + ']';
