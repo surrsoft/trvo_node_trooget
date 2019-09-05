@@ -67,6 +67,25 @@ async function cardsGet(ojNmec) {
 }
 
 /**
+ * Получение карточки по id (1)
+ *
+ * @param _stCardId
+ * @return {Promise<*|Promise<unknown>|Promise|Promise>}
+ */
+async function cardByIdGet(_stCardId) {
+    return new Promise((resolve, reject) => {
+        let ojFind = {_id: _stCardId};
+        //---
+        dbFlashcards.find(ojFind, function (err, docs) {
+            if (err) {
+                reject(err);
+            }
+            resolve(docs);
+        });
+    });
+}
+
+/**
  * Возвращает случайную карточку из всех карточек подпадающих под условие (1).
  * Если карточек не найдено, то возвращает null
  *
@@ -93,7 +112,8 @@ async function cardCreateOrUpdate(_cardOj) {
             if (err) {
                 reject(err);
             }
-            resolve(true);
+            //---
+            resolve({numReplaced, upsert});
         });
     });
 }
@@ -103,10 +123,10 @@ async function cardCreateOrUpdate(_cardOj) {
  *
  * @return {Promise<*|Promise<unknown>|Promise|Promise>}
  */
-async function cardCount(){
+async function cardCount() {
     return new Promise((resolve, reject) => {
         dbFlashcards.count({}, function (err, count) {
-            if(err){
+            if (err) {
                 reject(err);
             }
             resolve(count);
@@ -119,12 +139,12 @@ async function cardCount(){
  *
  * @return {Promise<*|Promise<unknown>|Promise|Promise>}
  */
-async function cardCountBySelect(ojNmec){
+async function cardCountBySelect(ojNmec) {
     return new Promise((resolve, reject) => {
         let ojFind = fnFindOj(ojNmec);
         //---
         dbFlashcards.count(ojFind, function (err, count) {
-            if(err){
+            if (err) {
                 reject(err);
             }
             resolve(count);
@@ -137,12 +157,12 @@ async function cardCountBySelect(ojNmec){
  *
  * @return {Promise<*|Promise<unknown>|Promise|Promise>}
  */
-async function cardDelete(ojNmec){
+async function cardDelete(ojNmec) {
     return new Promise((resolve, reject) => {
         let ojFind = {_id: ojNmec.cardOj._id};
         //---
         dbFlashcards.remove(ojFind, {}, function (err, numRemoved) {
-            if(err){
+            if (err) {
                 reject(err);
             }
             resolve(numRemoved);
@@ -156,7 +176,7 @@ async function cardDelete(ojNmec){
  * @param _cardOj {Object}
  * @return {Promise<*|Promise<unknown>|Promise|Promise>}
  */
-async function cardExist(_cardOj){
+async function cardExist(_cardOj) {
     return new Promise((resolve, reject) => {
         let ojFind = {
             tag: _cardOj.tag,
@@ -164,7 +184,7 @@ async function cardExist(_cardOj){
         };
         //---
         dbFlashcards.find(ojFind, function (err, docs) {
-            if(err){
+            if (err) {
                 reject(err);
             }
             resolve(docs.length > 0);
@@ -182,3 +202,4 @@ exports.cardCount = cardCount;
 exports.cardCountBySelect = cardCountBySelect;
 exports.cardDelete = cardDelete;
 exports.cardExist = cardExist;
+exports.cardByIdGet = cardByIdGet;

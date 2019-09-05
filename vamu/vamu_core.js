@@ -26,6 +26,12 @@ async function go(_ojNmec) {
     else if(_ojNmec.action === 'esistsFront'){
         return await Flashcards.cardExist(_ojNmec.cardOj);
     }
+    else if(_ojNmec.action === 'cards'){
+        return await Flashcards.cardsGet(_ojNmec);
+    }
+    else if(_ojNmec.action === 'cardByIdGet'){
+        return await Flashcards.cardByIdGet(_ojNmec.cardId);
+    }
     return new Promise();
 }
 
