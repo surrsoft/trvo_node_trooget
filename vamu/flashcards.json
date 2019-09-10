@@ -3,11 +3,12 @@
 {"tag":"English","front":"opportunity","back":"шанс, возможность","bal":"1","_id":"1pondDyuB2xiFQiV"}
 {"tag":"English","front":"prefer","back":"предпочитать; оказывать поддержку; способствовать; продвигать; выдвигать (обвинение)","bal":"1","_id":"1qzzYRVNfGIJ0U5X"}
 {"tag":"English","front":"ambiguous","back":"двусмысленный, сомнительный, неопределенный","bal":"1","_id":"3kr6qbm3bR8l4neb"}
-{"tag":"English","front":"ascend","back":"подниматься, восходить","bal":"0","_id":"45Kd241bYAKCxfDJ"}
+{"tag":"English","front":"ascend","back":"подниматься, восходить","bal":"1","_id":"45Kd241bYAKCxfDJ"}
 {"tag":"JavaScript","front":"Что будет в параметрах function в таком выражении\n\ns.replace(regexp, function)","back":"Первым параметром всегда является полная совпавшая подстрока. Далее будут параметры соответствующие совпадениям в круглых скобках regexp, предпоследним параметром будет позиция на которой произошло совпадение, последним - исходная строка s.","bal":"1","_id":"4N8lwelf5WDtbNPa"}
 {"tag":"English","front":"gathering","back":"уборка (хлеба); сборка; комплектование; собрание (встреча); комплект одежды","bal":"0","_id":"4sxKsWkAtkCdsc21"}
+{"tag":"JavaScript","front":"наследуются ли статические свойства и методы класса ?","back":"да","bal":"0","_id":"5bH5YANdG2Qipjj2"}
 {"tag":"English","front":"appropriate","back":"уместный, надлежащий, адекватный","bal":"0","_id":"5g5zwxBgIUJHfoUu"}
-{"tag":"JavaScript (промисы)","front":"Каким условиям должна удовлетворять функция чтобы внутри неё можно было использовать ключевое слово 'await' ?","back":"Должна быть помечена ключевым словом 'async'","bal":"0","_id":"6Cso77WhcLXgkXMC"}
+{"tag":"JavaScript (промисы)","front":"Каким условиям должна удовлетворять функция чтобы внутри неё можно было использовать ключевое слово 'await' ?","back":"Должна быть помечена ключевым словом 'async'","bal":"1","_id":"6Cso77WhcLXgkXMC"}
 {"tag":"English","front":"chore","back":"рутинная работа","bal":"0","_id":"6XyiCixZsgAUwTXi"}
 {"tag":"English","front":"approach","back":"ГЛ. подходить, подступать; обращаться (с просьбой); СУЩ. приближение; наступление; подъезд, подступ; заход на посадку (авиа.)","bal":"1","_id":"6iVQvvevuNv2UFCK"}
 {"tag":"English","front":"simply put","back":"Проще говоря","bal":"0","_id":"7HHpuuOwJ6x4uzO2"}
@@ -18,7 +19,7 @@
 {"tag":"English","front":"legacy","back":"наследие, достояние, завещание","bal":"0","_id":"8nKCYyiO4py87Gfd"}
 {"tag":"English (Sentences)","front":"I {suppose} she has beautiful legs.","back":"Я {думаю} она имеет красивые ноги","bal":"0","_id":"8nkqHNYzOEaNnHSG"}
 {"tag":"English","front":"{behave}","back":"вести себя, поступать, держаться","bal":"0","_id":"9EIJjJHRUTilXWqV"}
-{"tag":"JavaScript (промисы)","front":"Как называют функцию которая передаётся в конструктор промиса? \n\nnew Promise(function(resolve, reject){ ... })","back":"исполнитель, executor","bal":"0","_id":"9VUZ679AtxQdE1yY"}
+{"tag":"JavaScript (промисы)","front":"Как называют функцию которая передаётся в конструктор промиса? \n\nnew Promise(function(resolve, reject){ ... })","back":"исполнитель, executor","bal":"1","_id":"9VUZ679AtxQdE1yY"}
 {"tag":"English","front":"perhaps","back":"возможно (пример - возможно это было...)","bal":"1","_id":"AmosLCtghgew0EXu"}
 {"tag":"JavaScript","front":"Что вернет метод /(a)(b)/.exec('ababab'); ? Каковы будут свойства того что будет возвращено?","back":"Вернет массив. Этот массив будет соответствовать первой паре ab из исходной строки ababab. Первым элементом массива будет все совпадение - ab. В последующих элементах массива будет то что соответствует круглым скобкам, в данном случае во 2-м элементе будет 'a', а в 3-м будет 'b'.","bal":"1","_id":"AqBXKi74EjDaLken"}
 {"tag":"English","front":"satisfy","back":"удовлетворять чему-либо","bal":"1","_id":"Au65mwWTwBNr7TEu"}
@@ -50,17 +51,17 @@
 {"tag":"English","front":"either","back":"любой; оба; каждый; также, тоже (в отриц. предложениях); или (или ... или ...)","bal":"1","_id":"JGmZe8mgf7YNa106"}
 {"tag":"English","front":"ourselves","back":"себя, себе, собой; сами","bal":"0","_id":"JGmZe8mgf7YNa107"}
 {"tag":"English","front":"(...) ...that it does not have to do anything.","back":"...что не нужно ничего делать.","bal":"1","_id":"JGmZe8mgf7YNa108"}
-{"tag":"English","front":"(...) This is so the code...","back":"Это такой код...","bal":"0","_id":"JGmZe8mgf7YNa109"}
+{"tag":"English","front":"(...) This is so the code...","back":"Это такой код...","bal":"1","_id":"JGmZe8mgf7YNa109"}
 {"tag":"English","front":"(...) ...that watches for focus changes...","back":"...который отслеживает изменение фокуса...","bal":"0","_id":"JGmZe8mgf7YNa110"}
 {"tag":"English","front":"traversal","back":"просмотр-обход; обход (проход); прослеживание, прохождение","bal":"1","_id":"JGmZe8mgf7YNa111"}
 {"tag":"English","front":"yet","back":"ещё, всё ещё, пока что; когда-либо, когда-нибудь; уже (в вопросительных предложениях), пора; ещё, вдобавок; СОЮЗ однако, тем не менее;","bal":"1","_id":"JGmZe8mgf7YNa112"}
 {"tag":"English","front":"dirty","back":"ПРИЛ. грязный, запачканый; непристойный; злостный; тусклый (о цвете); ненастный (о погоде); ГЛ. загрязнять, пачкать","bal":"1","_id":"JGmZe8mgf7YNa113"}
 {"tag":"English","front":"fling","back":"ГЛ. бросаться, кидаться; бросать, метать; СУЩ. бросок","bal":"0","_id":"JGmZe8mgf7YNa114"}
 {"tag":"English","front":"sentinel","back":"СУЩ. часовой, страж; ГЛ. охранять, стоять на страже","bal":"0","_id":"JGmZe8mgf7YNa115"}
-{"tag":"English","front":"duration","back":"длина, длительность, продолжительность","bal":"0","_id":"JGmZe8mgf7YNa116"}
+{"tag":"English","front":"duration","back":"длина, длительность, продолжительность","bal":"1","_id":"JGmZe8mgf7YNa116"}
 {"tag":"English","front":"contrary","back":"СУЩ. противоположность; ПРИЛ. обратный, противоположный; неблагоприятный; упрямый; ДОП. вопреки","bal":"0","_id":"JGmZe8mgf7YNa117"}
 {"tag":"English","front":"revert","back":"ГЛ. возвращаться (к чему-л.); (устн.) обращать назад (взгляд)","bal":"1","_id":"JGmZe8mgf7YNa118"}
-{"tag":"English","front":"gutter","back":"СУЩ. канавка, бороздка; сточная канава; дно (общества); ГЛ. вымывать канавки; стекать; угасать (о пламени)","bal":"0","_id":"JGmZe8mgf7YNa119"}
+{"tag":"English","front":"gutter","back":"СУЩ. канавка, бороздка; сточная канава; дно (общества); ГЛ. вымывать канавки; стекать; угасать (о пламени)","bal":"1","_id":"JGmZe8mgf7YNa119"}
 {"tag":"English","front":"layout","back":"СУЩ. планировка; разметка; макет; (америк. разг.) группа (людей)","bal":"0","_id":"JGmZe8mgf7YNa120"}
 {"tag":"English","front":"rest","back":"ГЛ. отдыхать; давать покой; покоиться; оставаться неподвижным; оставаться спокойным; класть, прислонять; (юр.) отзывать иск; СУЩ. покой, отдых, сон; смерть; перерыв; остаток, остальное","bal":"0","_id":"JGmZe8mgf7YNa121"}
 {"tag":"English","front":"rest in","back":"возлагать на (кого-л. ответственность и т.п.)","bal":"0","_id":"JGmZe8mgf7YNa122"}
@@ -103,7 +104,7 @@
 {"tag":"English","front":"in behalf of","back":"для, ради; в интересах, в пользу, в защиту (кого-л.)","bal":"0","_id":"JGmZe8mgf7YNa159"}
 {"tag":"English","front":"reachable","back":"досягаемый, достижимый; доступный","bal":"0","_id":"JGmZe8mgf7YNa160"}
 {"tag":"English","front":"threshold","back":"порог, пороговая величина; предверие, отправной пункт, канун, начало;","bal":"0","_id":"JGmZe8mgf7YNa161"}
-{"tag":"English","front":"immediately","back":"прямо, непосредственно; немедленно; как только","bal":"0","_id":"JGmZe8mgf7YNa162"}
+{"tag":"English","front":"immediately","back":"прямо, непосредственно; немедленно; как только","bal":"1","_id":"JGmZe8mgf7YNa162"}
 {"tag":"English","front":"disambiguation","back":"устранение противоречий; устранение неоднозначности; разрешение конфликтов","bal":"0","_id":"JGmZe8mgf7YNa163"}
 {"tag":"English","front":"inclusion","back":"включение (в состав)","bal":"1","_id":"JGmZe8mgf7YNa164"}
 {"tag":"English","front":"glance","back":"бросить взгляд; взглянуть мельком, одним глазом; едва заметить; блескнуть, сверкнуть; скользнуть, отскочить","bal":"0","_id":"JGmZe8mgf7YNa165"}
@@ -117,7 +118,7 @@
 {"tag":"English","front":"wish on","back":"навязывать (кому-л.)","bal":"0","_id":"JGmZe8mgf7YNa173"}
 {"tag":"English","front":"hint","back":"СУЩ. подсказка; намёк; совет; шанс (устн.); ГЛ. намекать","bal":"1","_id":"JGmZe8mgf7YNa174"}
 {"tag":"English","front":"leave","back":"СУЩ. позволение, разрешение; объезд, уход; отправление, отход; расставание, прощание; ГЛ. покидать; уезжать, переезжать; оставлять (след напр.); забывать; оставить (после себя напр.); разрешать, позволять","bal":"0","_id":"JGmZe8mgf7YNa175"}
-{"tag":"English","front":"cite","back":"ГЛ. ссылаться (на что-л.); цитировать; вызывать в суд (юр.); созывать, призывать","bal":"0","_id":"JGmZe8mgf7YNa176"}
+{"tag":"English","front":"cite","back":"ГЛ. ссылаться (на что-л.); цитировать; вызывать в суд (юр.); созывать, призывать","bal":"1","_id":"JGmZe8mgf7YNa176"}
 {"tag":"English","front":"route","back":"СУЩ. дорога, путь; шоссе; курс, направление; маршрут, путь следования ГЛ. прокладывать маршрут; направлять (по маршруту); намечать, распределять","bal":"1","_id":"JGmZe8mgf7YNa177"}
 {"tag":"English","front":"their","back":"их; свой;","bal":"0","_id":"JGmZe8mgf7YNa178"}
 {"tag":"English","front":"ancestor","back":"прародитель, предок; (юр.) предшествовавший владелец; прототип, прообраз","bal":"0","_id":"JGmZe8mgf7YNa179"}
@@ -125,14 +126,14 @@
 {"tag":"English","front":"opaque","back":"/непрозрачный/ ПРИЛ. непрозрачный; непроницаемый, темный; тусклый, без блеска; глупый; СУЩ. темнота, мрак","bal":"0","_id":"JGmZe8mgf7YNa181"}
 {"tag":"English","front":"ajust","back":"/подгонять/ ГЛ. приводить в порядок; подгонять, пригонять; приспосабливаться, привыкать; регулировать; настривать","bal":"1","_id":"JGmZe8mgf7YNa182"}
 {"tag":"English","front":"worth","back":"СУЩ. ценность, значение; достоинство; цена, стоимость; состояние, доход; запас (чего-л.); ГЛ. УСТ. случаться, происходить; становиться; следовать, надлежать","bal":"0","_id":"JGmZe8mgf7YNa183"}
-{"tag":"English","front":"enough","back":"ПРИЛ. достаточный; СУЩ. достаточное количество; НАРЕЧ. довольно, достаточно","bal":"0","_id":"JGmZe8mgf7YNa184"}
+{"tag":"English","front":"enough","back":"ПРИЛ. достаточный; СУЩ. достаточное количество; НАРЕЧ. довольно, достаточно","bal":"1","_id":"JGmZe8mgf7YNa184"}
 {"tag":"English","front":"notion","back":"СУЩ. идея, представление, понятие, знание; взгляд, мнение; упоминание; намерение; (устн.) изобретение","bal":"0","_id":"JGmZe8mgf7YNa185"}
 {"tag":"English","front":"forbid","back":"запрещать; не позволять; препятствовать","bal":"0","_id":"JGmZe8mgf7YNa186"}
 {"tag":"English","front":"pending","back":"ПРИЛ. незаконченный, ожидающий решения; надвигающийся, близкий; ПРЕДЛ. в продолжение; в течение; (вплоть) до; в ожидании, ожидая","bal":"0","_id":"JGmZe8mgf7YNa187"}
 {"tag":"English","front":"i.e.","back":"то есть","bal":"0","_id":"JGmZe8mgf7YNa188"}
 {"tag":"English","front":"farther","back":"ПРИЛ. отдаленный, удаленный; дальнейший; дополнительный; НАРЕЧ. сверх того, кроме того, помимо","bal":"0","_id":"JGmZe8mgf7YNa189"}
 {"tag":"English","front":"extent","back":"СУЩ. пространство, протяжение, расстояние; объем; мера, степень, рамки, пределы; размер, величина","bal":"0","_id":"JGmZe8mgf7YNa190"}
-{"tag":"English","front":"deal","back":"СУЩ. некоторое количество; сделка, соглашение, договор; обращение, обхождение; ГЛ. распределять; раздавать, выдавать; наносить (удар); СУЩ. доска; древесина","bal":"0","_id":"JGmZe8mgf7YNa191"}
+{"tag":"English","front":"deal","back":"СУЩ. некоторое количество; сделка, соглашение, договор; обращение, обхождение; ГЛ. распределять; раздавать, выдавать; наносить (удар); СУЩ. доска; древесина","bal":"1","_id":"JGmZe8mgf7YNa191"}
 {"tag":"English","front":"deal in","back":"покупать и продавать, торговать","bal":"0","_id":"JGmZe8mgf7YNa192"}
 {"tag":"English","front":"deal with","back":"рассматривать (жалобу, проблему); заниматься (решением проблемы);","bal":"0","_id":"JGmZe8mgf7YNa193"}
 {"tag":"English","front":"deal with / by","back":"иметь дело (с кем-л.); обходиться с (кем-л.)","bal":"0","_id":"JGmZe8mgf7YNa194"}
@@ -194,11 +195,12 @@
 {"tag":"English (Sentences)","front":"I {suppose} you think that was terribly clever.","back":"{Полагаю}, ты считаешь, что это было очень забавно.","bal":"0","_id":"LMJruZfdi39CVy6t"}
 {"tag":"English","front":"thereby","back":"(книжн.) таким образом, посредством этого; (устн.) около","bal":"0","_id":"M3hPo5bGJ8RV5OAy"}
 {"tag":"English","front":"salary","back":"зарплата","bal":"1","_id":"MDQcaOXzIjx6o1hw"}
+{"tag":"English","front":"fulfill","back":"выполнять, исполнять","bal":"0","_id":"MXRrU5aymUHZBARc"}
 {"tag":"English","front":"aware","back":"Знающий. Осведомленный. Сознающий","bal":"1","_id":"MzkVd9OHPZvF6AVL"}
 {"tag":"English","front":"though","back":"хотя, несмотря на, даже, если бы, тем не менее","bal":"1","_id":"NKRtyY2RmnjwL9zv"}
 {"tag":"JavaScript","front":"Что делает данная конструкция .replace(regexp/string, function)","back":"function вызывается при каждом совпадении regexp/string. Тем что вернет function будет заменено совпадение. ","bal":"1","_id":"O16YNPpB7SMk5IOH"}
 {"tag":"English","front":"implicit","back":"Неявный","bal":"0","_id":"PLrRtGAKR4OZ4ZCu"}
-{"tag":"JavaScript (промисы)","front":"Опишите сигнатуру функции .then()","back":"Этой функции передаётся 2 параметра. \nПервый - это функция, которая будет вызвана в случае успешного завершения промиса, как параметр ей передаётся результат промиса. \nВторой - это тоже функция, она вызывается в случае ошибки промиса, как параметр ей передаётся (как правило) объект ошибки.","bal":"0","_id":"PN66m13BV9SCReKd"}
+{"tag":"JavaScript (промисы)","front":"Опишите сигнатуру функции .then()","back":"Этой функции передаётся 2 параметра. \nПервый - это функция, которая будет вызвана в случае успешного завершения промиса, как параметр ей передаётся результат промиса. \nВторой - это тоже функция, она вызывается в случае ошибки промиса, как параметр ей передаётся (как правило) объект ошибки.","bal":"1","_id":"PN66m13BV9SCReKd"}
 {"tag":"English","front":"omit","back":"пропустить, исключить, опустить из рассмотрения","bal":"0","_id":"PgpsIxWpCVjnM6x2"}
 {"tag":"English","front":"enforced","back":"навязывать, принуждать, проводить в жизнь","bal":"0","_id":"Q8fbYJcDj1fjVtTt"}
 {"tag":"English","front":"neither","back":"никакой, ни тот ни другой, также не","bal":"1","_id":"QF4f3flleT3yjlem"}
@@ -212,9 +214,11 @@
 {"tag":"English","front":"condition","back":"состояние, положение; обстоятельства, условия; ГЛ. обусловливать, определять","bal":"0","_id":"RLdiV8tfwyT69egB"}
 {"tag":"English","front":"intend","back":"намереваться, планировать, значить, иметь в виду","bal":"0","_id":"RfRhxWV04FbCdxo5"}
 {"tag":"English","front":"devise","back":"разрабатывать, продумывать","bal":"0","_id":"TD8pJGHAoHN2IRDd"}
+{"tag":"English","front":"delightful","back":"восхитительный, очаровательный","bal":"0","_id":"TIjM3y2YN7EeLSjH"}
 {"tag":"English","front":"probably","back":"вероятно, наверное","bal":"0","_id":"Tavd9ljQJBth0y63"}
 {"tag":"English","front":"take","back":"брать; захватывать; ловить; хватать; принимать (форму); выполнять (функции); впитывать; воспринимать; думать; верить; применять; соглашаться; идти","bal":"0","_id":"USUaFDYQIInj0eUx"}
 {"tag":"English","front":"certain","back":"отдельный; точный, определенный; некий; некто; уверенный, убежденный; верный, надежный","bal":"1","_id":"VOyyuXvpwXz58bWz"}
+{"tag":"English","front":"suspended","back":"приостановленный","bal":"0","_id":"W6h4AR7jd0LTWf7n"}
 {"tag":"English","front":"unfortunately","back":"К сожалению","bal":"1","_id":"Xf0EVQdev4IG752h"}
 {"tag":"English","front":"relieving","back":"разгрузка, облегчение","bal":"0","_id":"XwdngBYxm9wTVeg1"}
 {"tag":"English","front":"oversight","back":"Надзор, недосмотр, оплошность","bal":"0","_id":"YSzE4uQtfn0AGf1S"}
@@ -223,9 +227,9 @@
 {"tag":"English","front":"distinct","back":"ПРИЛ. отдельный; особый, индивидуальный; отличный; внятный, четкий; отмеченный (чем-л.)","bal":"0","_id":"ZSS1Cd4433eSAOYX"}
 {"tag":"English","front":"obtain","back":"получать; добывать; существовать; применяться; иметь место; достигать","bal":"0","_id":"ZaX2PnhOppUNtbYL"}
 {"tag":"JavaScript","front":"Когда выполняется часть default конструкции switch","back":"Если 1) не было совпадения ни с одним case; 2) совпадения case были, но break не вызывался","bal":"1","_id":"ZaxqlHR1C29R4o2w"}
-{"tag":"JavaScript (промисы)","front":"Когда выполняется функция-executor промиса?","back":"Она выполняется автоматичесчки в момент создания промиса.","bal":"0","_id":"ZbsruXdZdO8IxCXI"}
+{"tag":"JavaScript (промисы)","front":"Когда выполняется функция-executor промиса?","back":"Она выполняется автоматичесчки в момент создания промиса.","bal":"1","_id":"ZbsruXdZdO8IxCXI"}
 {"tag":"English","front":"reject","back":"отвергать, отклонять","bal":"0","_id":"ZuyDfPNQaaJpKHH1"}
-{"tag":"JavaScript (промисы)","front":"Опишите сигнатуру функции передаваемую в конструктор промиса:\n\nnew Promise(function) ...","back":"function(resolve, reject){\n   ...\n}","bal":"0","_id":"aHD3nxNMriyHk75K"}
+{"tag":"JavaScript (промисы)","front":"Опишите сигнатуру функции передаваемую в конструктор промиса:\n\nnew Promise(function) ...","back":"function(resolve, reject){\n   ...\n}","bal":"1","_id":"aHD3nxNMriyHk75K"}
 {"tag":"English (Sentences)","front":"Not until you learn to {behave}.","back":"Не раньше чем ты научишься {вести себя}","bal":"1","_id":"aqStJh6P5Q7hJUMn"}
 {"tag":"English (Sentences)","front":"They {behave} both like particles and waves.","back":"Они {ведут себя} одновременно и как частицы и как волны","bal":"0","_id":"cWwovCEwcfLPYIiu"}
 {"tag":"JavaScript","front":"Что делает оператор typeof [typeof operand]","back":"Возвращает тип операнда в виде строки","bal":"1","_id":"eRGlsHjJJubXolHA"}
@@ -233,8 +237,11 @@
 {"tag":"English","front":"conjunction","back":"связывание, сцепление, соединение; совпадение (во времени); перекресток; союз (лингв.)","bal":"1","_id":"flkhdccqKFsdBywb"}
 {"tag":"English","front":"since","back":"с тех пор; тому назад; позднее; с тех пор как; так как; когда (что-то произошло, устн.)","bal":"1","_id":"fs13NFvH8rOHuba0"}
 {"tag":"English","front":"rather","back":"скорее, лучше, охотнее, предпочтительнее;  весьма; наоборот; (разг.) конечно да!","bal":"0","_id":"gC7yRXXQqq5KoO8M"}
+{"tag":"JavaScript","front":"Что будет в массиве filteredNumbers ?\n\nvar numbers = [1, 2, 3, 4];\nvar filteredNumbers = numbers.map(function(num, index) {\n  if(index < 3) {\n     return num;\n  }\n});","back":"[1, 2, 3, undefined]\n\nсм. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Mapping_array_have_undefined","bal":"0","_id":"hvzY9Dfz3KAGeI1c"}
 {"tag":"English","front":"affinity","back":"близость, родство","bal":"0","_id":"itl00rAk8mrGMXff"}
 {"tag":"English (PRG)","front":"Clause","back":"Выражение","bal":"0","_id":"jYnHYQhQaDwcUMHk"}
+{"tag":"JavaScript (промисы)","front":"Перечислите возможные состояния промиса и что они означают.","back":"1. pending - это состоние когда промис запущен, но еще не перешёл в сотояние fulfilled или rejected;\n2. fulfilled - состояние означающее что промис завершен успешно;\n3. rejected - состояние означающее что промис был завершён с ошибкой;","bal":"1","_id":"jjbPwdL08tO4yrGt"}
+{"tag":"JavaScript (промисы)","front":"Верно ли что состояние промиса может быть изменено только один раз?","back":"да, верно. Любые последующие вызовы функций resolve и reject игнорируются если они уже вызывались единожды.","bal":"1","_id":"kIK9uxPQUyN9Lzk5"}
 {"tag":"English","front":"ensure","back":"гарантировать, обеспечивать; затраховаться; удостовериться, убедиться","bal":"0","_id":"lw5B0aUZ4zP9Pqux"}
 {"tag":"English","front":"capable","back":"ПРИЛ. способный на что-л.; одаренный; поддающийся чему-л., допускающий что-л.; просторный, вместительный","bal":"0","_id":"mXZ8Pzk1RPuuZOy4"}
 {"tag":"English","front":"i mean","back":"я имею в виду","bal":"0","_id":"mjTTAYbTTk2na2OA"}
@@ -250,11 +257,14 @@
 {"tag":"English","front":"coerce","back":"сдерживать, удерживать силой, принуждать","bal":"0","_id":"rHLtmDdeGv0ZPZEo"}
 {"tag":"English","front":"feel","back":"Чувствовать. Ощущать","bal":"0","_id":"rPeqr652TeY8EB3T"}
 {"tag":"English","front":"redundancy","back":"чрезмерность, избыточность","bal":"0","_id":"rk0QK8GjJfD8LB4n"}
-{"tag":"JavaScript (промисы)","front":"Главное назначение промисов ?","back":"Для удобной работы с асинхронным кодом","bal":"0","_id":"rnCZV0mTIRjZH9nS"}
+{"tag":"JavaScript (промисы)","front":"Главное назначение промисов ?","back":"Для удобной работы с асинхронным кодом","bal":"1","_id":"rnCZV0mTIRjZH9nS"}
 {"tag":"JavaScript","front":"Изменяет ли .exec свойства регулярного выражения с которым .exec используется? Если изменяет то как?","back":"Изменяет. Заполняет его информацией о последнем совпадении.","bal":"1","_id":"ryg5EyxPLEi6FdZM"}
 {"tag":"English","front":"imply","back":"Означать, подразумевать, предполагать","bal":"0","_id":"s9uFFuGLpIDQ6sVp"}
-{"tag":"English","front":"accuracy","back":"правильность, соответствие, точность; тщательность, аккуратность","bal":"0","_id":"tsud2vDpRnXz6O1D"}
+{"tag":"English","front":"didicated","back":"предназначенный","bal":"0","_id":"sFwnR4mbgHr6Ranq"}
+{"tag":"English","front":"accuracy","back":"правильность, соответствие, точность; тщательность, аккуратность","bal":"1","_id":"tsud2vDpRnXz6O1D"}
 {"tag":"English (PRG)","front":"no-op","back":"пустой оператор, холостая команда","bal":"0","_id":"uuGZKVsjjEvvHPOY"}
+{"tag":"English","front":"vulnerability","back":"уязвимость","bal":"0","_id":"vfSkt9EnADQmYkbU"}
+{"tag":"English","front":"ultimately","back":"в конце концов, в конечном счёте","bal":"0","_id":"wFAtRYBvbZChUOO2"}
 {"tag":"English","front":"descend","back":"убывать, спускаться","bal":"1","_id":"wwYs6iSXmnjZFYnq"}
 {"tag":"English","front":"persist","back":"ГЛ. упорствовать, упорно продолжать; удерживаться, сохраняться, продолжать существовать","bal":"1","_id":"xALsFy1J6ZTfL8xV"}
 {"tag":"English","front":"dead-end","back":"безвыходный, тупиковый, непослушный","bal":"0","_id":"xYSpTAtAZ2MrkfGG"}
@@ -263,27 +273,4 @@
 {"tag":"English","front":"behind","back":"сзади, позади","bal":"1","_id":"yt7fBwfzQJj8EYhO"}
 {"tag":"English","front":"hence","back":"Следовательно, поэтому, отсюда","bal":"0","_id":"yxglrKokHT4dzlWG"}
 {"tag":"English","front":"once","back":"один раз, однажды, когда-то, давний, иногда","bal":"0","_id":"zF0ZhJkCCaD5Weut"}
-{"tag":"Node.js","front":"z","back":"","bal":"0","_id":"FxovxhPvyw2S7gfk"}
-{"tag":"Node.js","front":"z1","back":"","bal":"0","_id":"FxovxhPvyw2S7gfk"}
-{"tag":"Node.js","front":"","back":"","bal":"0","_id":"4zQ4rkQ8cKIQNoSr"}
-{"tag":"Node.js","front":"ы","back":"","bal":"0","_id":"yHHrr1TH8t1l9Ky2"}
-{"tag":"Node.js","front":"ыы","back":"","bal":"0","_id":"yHHrr1TH8t1l9Ky2"}
-{"tag":"Node.js","front":"ы","back":"","bal":"0","_id":"yHHrr1TH8t1l9Ky2"}
-{"tag":"Node.js","front":"t","back":"","bal":"0","_id":"Em6VkFsblKMRrkJV"}
-{"tag":"Node.js","front":"t","back":"","bal":"0","_id":"Em6VkFsblKMRrkJV"}
-{"tag":"Node.js","front":"t","back":"r","bal":"0","_id":"Em6VkFsblKMRrkJV"}
-{"tag":"Node.js","front":"t","back":"r","bal":"0","_id":"Em6VkFsblKMRrkJV"}
-{"tag":"Node.js","front":"z1","back":"","bal":"0","_id":"FxovxhPvyw2S7gfk"}
-{"tag":"Node.js","front":"вопрос61","back":"ответ6","bal":"3","_id":"Qsy3GQNd9uragqlx"}
-{"tag":"Node.js","front":"12","back":"","bal":"0","_id":"76bfNVrH14OUoRaJ"}
-{"tag":"Node.js","front":"12","back":"","bal":"0","_id":"76bfNVrH14OUoRaJ"}
-{"tag":"Node.js","front":"12","back":"","bal":"0","_id":"76bfNVrH14OUoRaJ"}
-{"tag":"Node.js","front":"12","back":"","bal":"0","_id":"76bfNVrH14OUoRaJ"}
-{"tag":"Node.js","front":"","back":"","bal":"0","_id":"4zQ4rkQ8cKIQNoSr"}
-{"tag":"Node.js","front":"","back":"","bal":"0","_id":"4zQ4rkQ8cKIQNoSr"}
-{"tag":"Node.js","front":"","back":"","bal":"0","_id":"4zQ4rkQ8cKIQNoSr"}
-{"$$deleted":true,"_id":"yHHrr1TH8t1l9Ky2"}
-{"$$deleted":true,"_id":"Em6VkFsblKMRrkJV"}
-{"$$deleted":true,"_id":"76bfNVrH14OUoRaJ"}
-{"$$deleted":true,"_id":"4zQ4rkQ8cKIQNoSr"}
-{"$$deleted":true,"_id":"FxovxhPvyw2S7gfk"}
+{"tag":"English","front":"sparse","back":"разреженный, редкий, немногочисленный","bal":"0","_id":"zhueRaYsEpLNWonc"}

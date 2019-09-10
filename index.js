@@ -24,6 +24,8 @@ const port = 3001;
 const pathPrefix = config.troogetPathRelative; //'../m80m_Trooget/_wiki';
 const stUmok = '/umok_';
 
+console.log('hello from trvo');
+
 //---
 /*
  Обработчик запросов от клиента.
