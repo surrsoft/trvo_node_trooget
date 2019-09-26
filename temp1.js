@@ -2,8 +2,10 @@
 
 /* jshint esversion: 6 */
 
-const util = require('util');
-const TObject = require('./xrsu/TObject');
-
 //-------------------------------------------------------------------------------------------------
 
+const y = function (p) {
+  return p + 1;
+};
+
+module.exports = y;

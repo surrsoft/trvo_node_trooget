@@ -20,7 +20,7 @@ const Vamu = require('./vamu/vamu_core');
 
 //--- константы
 const hostname = '127.0.0.1';
-const port = 3001;
+const port = 3019;
 const pathPrefix = config.troogetPathRelative; //'../m80m_Trooget/_wiki';
 const stUmok = '/umok_';
 

@@ -182,7 +182,7 @@
 {"tag":"English","front":"kindly","back":"приятный, милый, дружелюбный; хороший (о климате); сердечно, вежливо, любезно; легко, без напряжения; естественным образом","bal":"0","_id":"JGmZe8mgf7YNa920"}
 {"tag":"English","front":"{tried}","back":"{пытался}; надежный, проверенный, испытанный","bal":"1","_id":"JGmZe8mgf7YNa930"}
 {"tag":"English","front":"truncate","back":"усечённый; усекать; укорачивать; сокращать; калечить; округлять; отбрасывать (числа)","bal":"1","_id":"JGmZe8mgf7YNa940"}
-{"tag":"English","front":"restrict","back":"ограничивать","bal":"1","_id":"JGmZe8mgf7YNa950"}
+{"tag":"English","front":"restrict","back":"ограничивать","bal":"2","_id":"JGmZe8mgf7YNa950"}
 {"tag":"English","front":"propagation","back":"воспроизведение, размножение; распространение (идей)","bal":"0","_id":"JGmZe8mgf7YNa960"}
 {"tag":"English","front":"consistency","back":"соответствие; логичность, связность; стойкость, устойчивость; прочность, постоянство; слаженность, взаимодействие ","bal":"1","_id":"JGmZe8mgf7YNa970"}
 {"tag":"English","front":"properly","back":"должным образом; как следует; правильно; пристойно; собственно, строго говоря; по сути; существенным образом; прекрасно (разг.); вполне","bal":"0","_id":"JGmZe8mgf7YNa980"}
@@ -192,6 +192,7 @@
 {"tag":"English","front":"narrow","back":"узкий, тесный, ограниченный","bal":"1","_id":"K64osOKLa0lGSD8f"}
 {"tag":"English","front":"slightly","back":"мало, незначительно, несущественно","bal":"0","_id":"KMeDf3WRj1ka2AlR"}
 {"tag":"English","front":"every","back":"каждый, всякий","bal":"0","_id":"KTetUgM9MFQLgIkr"}
+{"tag":"English","front":"teammates","back":"товарищи по команде, соратники","bal":"0","_id":"KWkxObsnGxGMu566"}
 {"tag":"English (Sentences)","front":"I {suppose} you think that was terribly clever.","back":"{Полагаю}, ты считаешь, что это было очень забавно.","bal":"0","_id":"LMJruZfdi39CVy6t"}
 {"tag":"English","front":"thereby","back":"(книжн.) таким образом, посредством этого; (устн.) около","bal":"0","_id":"M3hPo5bGJ8RV5OAy"}
 {"tag":"English","front":"salary","back":"зарплата","bal":"1","_id":"MDQcaOXzIjx6o1hw"}
@@ -243,7 +244,7 @@
 {"tag":"JavaScript (промисы)","front":"Перечислите возможные состояния промиса и что они означают.","back":"1. pending - это состоние когда промис запущен, но еще не перешёл в сотояние fulfilled или rejected;\n2. fulfilled - состояние означающее что промис завершен успешно;\n3. rejected - состояние означающее что промис был завершён с ошибкой;","bal":"1","_id":"jjbPwdL08tO4yrGt"}
 {"tag":"JavaScript (промисы)","front":"Верно ли что состояние промиса может быть изменено только один раз?","back":"да, верно. Любые последующие вызовы функций resolve и reject игнорируются если они уже вызывались единожды.","bal":"1","_id":"kIK9uxPQUyN9Lzk5"}
 {"tag":"English","front":"ensure","back":"гарантировать, обеспечивать; затраховаться; удостовериться, убедиться","bal":"0","_id":"lw5B0aUZ4zP9Pqux"}
-{"tag":"English","front":"capable","back":"ПРИЛ. способный на что-л.; одаренный; поддающийся чему-л., допускающий что-л.; просторный, вместительный","bal":"0","_id":"mXZ8Pzk1RPuuZOy4"}
+{"tag":"English","front":"capable","back":"ПРИЛ. способный на что-л.; одаренный; поддающийся чему-л., допускающий что-л.; просторный, вместительный","bal":"1","_id":"mXZ8Pzk1RPuuZOy4"}
 {"tag":"English","front":"i mean","back":"я имею в виду","bal":"0","_id":"mjTTAYbTTk2na2OA"}
 {"tag":"JavaScript","front":"Что вернет 'aabbcc'.indexOf('c', 2);","back":"4 (индекс буквы b, поиск начинается с индекса 2 строки)","bal":"1","_id":"nC18zWlqturVrHBr"}
 {"tag":"English","front":"feared","back":"Опасаться. Бояться","bal":"0","_id":"nuz1yuiaiRDbeUng"}
@@ -266,7 +267,7 @@
 {"tag":"English","front":"vulnerability","back":"уязвимость","bal":"0","_id":"vfSkt9EnADQmYkbU"}
 {"tag":"English","front":"ultimately","back":"в конце концов, в конечном счёте","bal":"0","_id":"wFAtRYBvbZChUOO2"}
 {"tag":"English","front":"descend","back":"убывать, спускаться","bal":"1","_id":"wwYs6iSXmnjZFYnq"}
-{"tag":"English","front":"persist","back":"ГЛ. упорствовать, упорно продолжать; удерживаться, сохраняться, продолжать существовать","bal":"1","_id":"xALsFy1J6ZTfL8xV"}
+{"tag":"English","front":"persist","back":"ГЛ. сохраняться, продолжать существовать, упорствовать, упорно продолжать; удерживаться, ","bal":"1","_id":"xALsFy1J6ZTfL8xV"}
 {"tag":"English","front":"dead-end","back":"безвыходный, тупиковый, непослушный","bal":"0","_id":"xYSpTAtAZ2MrkfGG"}
 {"tag":"English","front":"existance","back":"жизнь, бытие, существование","bal":"1","_id":"xlbwyVQNwG936Gwb"}
 {"tag":"English","front":"whereas","back":"тогда как; несмотря на то что; принимая во внимание, поскольку","bal":"0","_id":"y9U3yjAD4sK7VaZw"}

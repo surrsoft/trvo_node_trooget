@@ -4,21 +4,19 @@
 
 const util = require('util');
 const TObject = require('./xrsu/TObject');
-const {User} = require('./temp1');
+const { User } = require('./temp1');
 const TInfo = require('./xrsu/TInfo');
 const lodash = require('lodash');
 const TTemp = require('./xrsu/TTemp');
 const TMap = require('./xrsu/TMap');
+const TypeID = require('./xrsu/TypeID');
+
 
 //-------------------------------------------------------------------------------------------------
 
-let x = ({n}) => {
-    console.log('n ['+n+']');
+const x = {
+  a: 1,
+  b: { c: 2 }
 };
 
-let m = {
-    a: 1,
-    n: 2
-};
-
-x(m);
+console.log(!!x.b.c);
