@@ -2,21 +2,35 @@
 
 /* jshint esversion: 6 */
 
-const util = require('util');
-const TObject = require('./xrsu/TObject');
-const { User } = require('./temp1');
-const TInfo = require('./xrsu/TInfo');
-const lodash = require('lodash');
-const TTemp = require('./xrsu/TTemp');
-const TMap = require('./xrsu/TMap');
-const TypeID = require('./xrsu/TypeID');
+const axios = require('axios');
+const nock = require('nock');
+
+function fnRequest(_stComment, _stPath) {
+    axios({
+        method: 'get',
+        url: _stPath
+    })
+        .then((res) => {
+            console.log(`req-${_stComment} - success`, res.data); //del
+        })
+        .catch((err) => {
+            console.log(`req-${_stComment} - error`); //del
+        });
+}
+
+// --- nock
+nock.disableNetConnect();
+nock('http://example.com/')
+    .get('/')
+    .reply(200, { resp: 'ok' });
+
+// ---
+fnRequest('01', 'http://example.com/');
+
+nock.cleanAll();
+nock.enableNetConnect();
+
+// fnRequest('02', '', 's');
 
 
-//-------------------------------------------------------------------------------------------------
 
-const x = {
-  a: 1,
-  b: { c: 2 }
-};
-
-console.log(!!x.b.c);
